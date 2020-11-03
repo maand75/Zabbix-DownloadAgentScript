@@ -26,13 +26,13 @@ The following item will download the zabbix_agentd.txt and compare the version w
 
 The script will return the version of the agent installed so the current version installed can be viewed in the Item data
 
-Create a new item:
-	Name: Script UpdateAgent
-	Type: Zabbix agent/Zabbix agent (active)
-	Key: DownloadAgentScript[UpdateAgent]
-	Type of Information: Text
-	Update Interval: 15m (for testing)
-	Application: Agent Script
+Create a new item:<br/>
+	Name: Script UpdateAgent<br/>
+	Type: Zabbix agent/Zabbix agent (active)<br/>
+	Key: DownloadAgentScript[UpdateAgent]<br/>
+	Type of Information: Text<br/>
+	Update Interval: 15m (for testing)<br/>
+	Application: Agent Script<br/>
 	
 # Zabbix Template Distribution/Update
 DownloadAgentScript can also be used to create an item within your existing templates you are using so agents assigned the template will automatically download the configuration file and scripts to the '$ZabbixRoot\Scripts' folder
